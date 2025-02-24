@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/le1t0ftw/argo-apps-of-apps.git
-    path: manifests/database  # Ruta dentro del repo
+    path: apps/database  # Ruta dentro del repo
     targetRevision: main
   destination:
     server: https://kubernetes.default.svc
